@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Menu</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Codigi</div>
+        <ul class="nav-links">
+            <li><a href="landingPage.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="#" class="active">Dashboard</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+        <div class="user-info">
+            <button class="logout-btn">LOGOUT</button>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="dashboard-header">
+        <div class="header-content">
+            <p class="date">September 4, 2023</p>
+            <h1>Welcome back, John!</h1>
+            <p class="subtitle">Always stay updated in your student dashboard</p>
+        </div>
+        <div class="profile">
+            <img src="images/user.png" alt="John Doe">
+            <div>
+                <p class="username">John Doe</p>
+                <p class="user-role">Student</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Menu Section -->
+    <section class="dashboard-menu">
+        <h2>Menu</h2>
+        <div class="menu-grid">
+            <div class="menu-item" id="courses-btn">
+                <img src="images/box.png" alt="">
+                <h3>Courses</h3>
+                <p>Browse and manage your enrolled courses</p>
+            </div>
+
+            <div class="menu-item active" id="materials-btn">
+                <img src="images/google-docs.png" alt="">
+                <h3>Materials</h3>
+                <p>Access course resources and study materials</p>
+            </div>
+
+            <div class="menu-item" id="quiz-btn">
+                <img src="images/pencil.png" alt="">
+                <h3>Quiz</h3>
+                <p>Take quizzes and test your knowledge</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/chat.png" alt="">                
+                <h3>Forum</h3>
+                <p>Join discussions and collaborate with others</p>
+            </div>
+        </div>
+        
+        <br><br>
+
+        <div class="menu-grid">
+            <div class="menu-item" id="progress-btn">
+                <img src="images/progress.png" alt="">
+                <h3>Progress Tracker</h3>
+                <p>Monitor your learning progress</p>
+            </div>
+
+            <div class="menu-item" id="schedule-btn">
+                <img src="images/calendar.png" alt="">               
+                <h3>Schedule</h3>
+                <p>Check your class and exam schedules</p>
+            </div>
+
+            <div class="menu-item" id="certicate-btn">
+                <img src="images/certificate.png" alt="">                
+                <h3>Certificates</h3>
+                <p>View and download earned certificates</p>
+            </div>
+
+            <div class="menu-item" id="info-btn">
+                <img src="images/settings.png" alt="">
+                <h3>Change Info</h3>
+                <p>Update your personal information</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="foot-container">
+            <!-- Kiri : Info kontak -->
+            <div class="left-footer">
+                <h2 class="title">Codigi</h2>
+                <div class="text">
+                    <img src="images/location.png" alt="location">
+                    <p><strong>Address: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="text">
+                    <img src="images/telephone-call.png" alt="telephone">
+                    <p><strong>Tel: </strong>+9293440937</p>
+                </div>
+                <div class="text">
+                    <img src="images/clock.png" alt="clock">
+                    <p><strong>Response hours: </strong>8 to 20</p>
+                </div>
+                <div class="text">
+                    <img src="images/mail.png" alt="mail">
+                    <p><strong>Email: </strong>info@onlearn.com</p>
+                </div>
+            </div>
+
+            <div class="middle-footer">
+                <div class="sosmed">
+                    <h3>Social Media</h3>
+                    <p>Instagram</p>
+                    <p>Facebook</p>
+                    <p>X</p>
+                    <p>more</p>
+                </div>
+
+                <div class="links">
+                    <h3>Links</h3>
+                    <p>Courses</p>
+                    <p>About Us</p>
+                </div>
+            </div>
+
+            <!-- Kanan : Form Berlangganan -->
+            <div class="right-footer">
+                <p class="subs-text">Stay up to date with the latest courses</p>
+                <div class="subs-box">
+                    <input type="email" placeholder="Email" name="" id="">
+                    <button>Send</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

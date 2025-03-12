@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>course detail</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="courseDetail.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Codigi</div>
+        <ul class="nav-links">
+            <li><a href="landingPage.html">Home</a></li>
+            <li><a href="courses.html" class="active">Courses</a></li>
+            <li><a href="dashboardMenu.html">Dashboard</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+        <div class="user-info">
+            <img src="images/user.png" alt="User Avatar">
+            <div class="user">
+                <p class="username">John Doe</p>
+                <p class="role">Student</p>
+            </div>
+            <button class="logout-btn">LOGOUT</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>COURSE DETAILS</h1>
+    </header>
+
+    <section class="course-detail-container">
+
+        <!-- Left Side - Course Details -->
+        <div class="course-content">
+            <img src="images/course4-1.png" alt="Course Image" class="course-image">
+
+            <div class="course-header">
+                <div class="rating">⭐⭐⭐⭐⭐ <span>(4.7)</span></div>
+                <h1>Web Development Fully Complete Guideline</h1>
+                <div class="list">
+                    <p class="details">
+                        <img src="images/document.png" alt=""> 10 Lessons
+                        <img src="images/clock.png" alt=""> 19h 30m
+                        <img src="images/user.png" alt=""> Students 20+
+                    </p>
+                    <div class="instructor">
+                        <img src="images/group.png" alt="Instructor">
+                        <span>Morgan</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <!-- Tabs -->
+            <div class="course-tabs">
+                <button class="active">Overview</button>
+                <button>Instructor</button>
+                <button>Reviews</button>
+            </div>
+
+            <!-- Course Description -->
+            <div class="course-description">
+                <h2>Course Description</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim..</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum..</p>
+            </div>
+
+            <!-- Learning Outcomes -->
+            <div class="learning-outcomes">
+                <h2>What Will I Learn From This Course?</h2>
+                <p>Himenaeos. Vestibulum sollicitudin varius mauris non dignissim. Sed quis iaculis est. Nulla quam neque, interdum vitae fermentum lacinia, interdum eu magna. Mauris non posuere tellus. Donec quis euismod tellus. Nam vel lacus eu nisl bibendum accumsan vitae vitae nibh. Nam nec eros id magna hendrerit sagittis Nullam sed mi non odio feugiat volutpat sit amet nec elit. Maecenas id hendrerit ipsum</p>
+            </div>
+        </div>
+
+        <!-- Right Side - Sidebar -->
+        <div class="course-sidebar">
+            <div class="course-enrollment">
+                <img src="images/course4-2.png" alt="Course Image">
+                <p>Enjoy This Course At No Cost<br>Lifetime Access</p>
+                <button class="join-btn" id="material-btn">JOIN NOW</button>
+                <ul>
+                    <li><strong>Enrolled:</strong> 100</li>
+                    <li><strong>Lectures:</strong> 80</li>
+                    <li><strong>Skill Level:</strong> Basic</li>
+                    <li><strong>Language:</strong> English</li>
+                </ul>
+            </div>
+
+            <!-- Suggested Courses -->
+            <div class="suggested-courses">
+                <h3>You Might Interest</h3>
+                <div class="suggested-course">
+                    <img src="images/course3.png" alt="Course Thumbnail">
+                    <div class="course-info">
+                        <h4>Starting SEO As Your Home Based Business</h4>
+                    </div>
+                    <div class="foot">
+                        <div class="instructor">
+                            <img src="images/group.png" style="width: 30px; height: 30px;" alt="Instructor">
+                            <span>Morgan</span>
+                        </div>
+                        <button class="enroll-btn">Enroll →</button>
+                    </div>
+                </div>
+
+                <div class="suggested-course">
+                    <img src="images/course1.png" alt="Course Thumbnail">
+                    <div class="course-info">
+                        <h4>It Statistics Data Science And Business Analysis</h4>
+                    </div>
+                    <div class="foot">
+                        <div class="instructor">
+                            <img src="images/group.png" style="width: 30px; height: 30px;" alt="Instructor">
+                            <span>Morgan</span>
+                        </div>
+                        <button class="enroll-btn">Enroll →</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="foot-container">
+            <!-- Kiri : Info kontak -->
+            <div class="left-footer">
+                <h2 class="title">Codigi</h2>
+                <div class="text">
+                    <img src="images/location.png" alt="location">
+                    <p><strong>Address: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="text">
+                    <img src="images/telephone-call.png" alt="telephone">
+                    <p><strong>Tel: </strong>+9293440937</p>
+                </div>
+                <div class="text">
+                    <img src="images/clock.png" alt="clock">
+                    <p><strong>Response hours: </strong>8 to 20</p>
+                </div>
+                <div class="text">
+                    <img src="images/mail.png" alt="mail">
+                    <p><strong>Email: </strong>info@onlearn.com</p>
+                </div>
+            </div>
+
+            <div class="middle-footer">
+                <div class="sosmed">
+                    <h3>Social Media</h3>
+                    <p>Instagram</p>
+                    <p>Facebook</p>
+                    <p>X</p>
+                    <p>more</p>
+                </div>
+
+                <div class="links">
+                    <h3>Links</h3>
+                    <p>Courses</p>
+                    <p>About Us</p>
+                </div>
+            </div>
+
+            <!-- Kanan : Form Berlangganan -->
+            <div class="right-footer">
+                <p class="subs-text">Stay up to date with the latest courses</p>
+                <div class="subs-box">
+                    <input type="email" placeholder="Email" name="" id="">
+                    <button>Send</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

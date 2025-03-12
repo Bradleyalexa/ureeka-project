@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Quiz</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Codigi</div>
+        <ul class="nav-links">
+            <li><a href="landingPage.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="#" class="active">Dashboard</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+        <div class="user-info">
+            <button class="logout-btn">LOGOUT</button>
+        </div>
+    </nav>
+
+    <!-- Menu Toggle Button -->
+    <section class="container">
+
+        <!-- Sidebar -->
+         <div class="side">
+             <button class="menu-toggle" id="quiz-btn"><img src="images/left-arrow.png" alt="">My Quiz</button>
+             <div class="sidebar">
+                 <div class="profile">
+                     <img src="images/user.png" alt="John Doe">
+                     <h3>John Doe</h3>
+                     <p class="user-role">Student</p>
+                 </div>
+         
+                 <!-- Menu Items -->
+                 <ul class="menu-list">
+                    <li id="courses-btn"><img src="images/box.png" alt=""> Courses</li>
+                    <li id="materials-btn"><img src="images/google-docs.png" alt=""></i> Materials</li>
+                    <li class="active" id="quiz-btn2"><img src="images/pencil.png" alt=""></i> Quiz</li>
+                    <li id="progress-btn"><img src="images/progress.png" alt=""></i> Progress Tracker</li >
+                    <li id="schedule-btn"><img src="images/calendar.png" alt=""> Schedule</li >
+                    <li id="certicate-btn"><img src="images/certificate.png" alt=""> Certificates</li >
+                    <li id="info-btn"><img src="images/settings.png" alt=""></i> Change Info</li>
+                 </ul>
+             </div>
+         </div>
+
+        <div class="quiz">
+            <h2>Recent Quizes</h2>
+
+            <div class="top-quiz">
+                <img src="images/quiz1.png" alt="">
+                <div class="spek">
+                    <h3><strong>Date:</strong><span>28/07/2021</span></h3>
+                    <h3><strong>Time Limit:</strong><span>15 Mins</span></h3>
+                    <h3><strong>Attempts:</strong><span>Twice</span></h3>
+                    <h3><strong>Pass Points:</strong><span>80 Points</span></h3>
+
+                    <button>Start Quiz</button>
+                </div>
+            </div>
+
+            <div class="desc">
+                <div class="desc-top">
+                    <h4>Protecting the Organisation from Cyber Attacks</h4>
+                    <div class="jempol">
+                        <div class="like">
+                            <img src="images/like.png" alt="" class="like"><p>145</p>
+                        </div>
+                        <div class="dislike">
+                            <img src="images/dislike.png" alt="" class="dislike"><p>0</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>One of the most efficient ways to protect against cyber attacks and all types of data breaches is to train your employees on cyber attack prevention and the quiz consists of questions. 
+                    <br><br>    
+                    To be successful with the quizzes, it's important to conversant with the topic by paying attention to the short video 
+                    <br><br>    
+                    To start, click the "Start" button. When finished, click the "Submit " button.</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="foot-container">
+            <!-- Kiri : Info kontak -->
+            <div class="left-footer">
+                <h2 class="title">Codigi</h2>
+                <div class="text">
+                    <img src="images/location.png" alt="location">
+                    <p><strong>Address: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="text">
+                    <img src="images/telephone-call.png" alt="telephone">
+                    <p><strong>Tel: </strong>+9293440937</p>
+                </div>
+                <div class="text">
+                    <img src="images/clock.png" alt="clock">
+                    <p><strong>Response hours: </strong>8 to 20</p>
+                </div>
+                <div class="text">
+                    <img src="images/mail.png" alt="mail">
+                    <p><strong>Email: </strong>info@onlearn.com</p>
+                </div>
+            </div>
+
+            <div class="middle-footer">
+                <div class="sosmed">
+                    <h3>Social Media</h3>
+                    <p>Instagram</p>
+                    <p>Facebook</p>
+                    <p>X</p>
+                    <p>more</p>
+                </div>
+
+                <div class="links">
+                    <h3>Links</h3>
+                    <p>Courses</p>
+                    <p>About Us</p>
+                </div>
+            </div>
+
+            <!-- Kanan : Form Berlangganan -->
+            <div class="right-footer">
+                <p class="subs-text">Stay up to date with the latest courses</p>
+                <div class="subs-box">
+                    <input type="email" placeholder="Email" name="" id="">
+                    <button>Send</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>    
+</body>
+</html>

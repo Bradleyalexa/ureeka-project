@@ -1,0 +1,110 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f8f4f0;
+    color: #3d3d3d;
+} */
+
+/* Footer */
+.footer {
+    margin-top: 100px;
+    background-color: #cbb999;
+    padding: 50px 80px;
+    border-radius: 100px 100px 0 0;
+    color: #4a321b;
+}
+
+.footer .foot-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.footer .foot-container .left-footer .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer .foot-container .left-footer .text {
+    display: flex;
+    align-items: center;
+}
+
+.footer .foot-container .left-footer .text img {
+    width: 30px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.footer .foot-container .left-footer p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.footer .foot-container .middle-footer {
+    display: flex;
+    gap: 60px;
+    margin-top: 20px;
+}
+
+.footer .foot-container .middle-footer h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.footer .foot-container .middle-footer p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.footer .foot-container .middle-footer p:hover {
+    text-decoration: underline;
+}
+
+.footer .foot-container .right-footer {
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 10%;
+    margin-left: 0;
+}
+
+.footer .foot-container .right-footer .subs-text {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer .foot-container .right-footer .subs-box {
+    display: flex;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+.footer .foot-container .right-footer .subs-box input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    flex: 1;
+    font-size: 14px;
+    color: #ff7f00;
+}
+
+.footer .foot-container .right-footer .subs-box button {
+    background-color: #ff7f00;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 14px;
+}
